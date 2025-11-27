@@ -42,7 +42,7 @@ function limparCampo() {
 
 function mensagemInicial() {
     exibirTexto('h1', 'Jogo do número secreto!')
-    exibirTexto('p', 'Escolha um número entre 1 e 10')
+    exibirTexto('p', `Escolha um número entre 1 e ${numeroLimite}`)
 }
 
 function gerarNumeroAleatorio(){
